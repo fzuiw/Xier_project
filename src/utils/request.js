@@ -4,7 +4,7 @@ import { getToken, deleteToken } from '@/utils/token'
 import router from '@/router'
 
 
-axios.defaults.baseURL = 'http://mtp4k8.natappfree.cc';
+axios.defaults.baseURL = 'http://vfq85y.natappfree.cc';
 // axios.defaults.timeout = 10000;
 
 
