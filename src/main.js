@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import filePopup from '@/components/picUpl/filePopup'
+// import filePopup from '@/components/picUpl/filePopup'
 import articleList from '@/components/Article/articleList'
 import adarticleList from '@/components/Article/adarticleList'
 import myarticleList from '@/components/Article/myarticleList'
@@ -18,7 +18,7 @@ Vue.use(Vant);
 // Vue.use(VueAxios, axios);
 Vue.config.productionTip = false
 
-Vue.component("filePopup", filePopup);
+// Vue.component("filePopup", filePopup);
 Vue.component("articleList", articleList);
 Vue.component("adarticleList", adarticleList);
 Vue.component("myarticleList", myarticleList);
