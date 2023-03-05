@@ -8,7 +8,7 @@ import Register from '@/views/user/Register.vue'
 import Home from '@/views/home/MyHome.vue'
 //import Project from '@/views/menus/Project.vue'
 import User from '@/views/menus/User.vue'
-import Li from '@/views/test/listuuu.vue'
+// import Li from '@/views/test/listuuu.vue'
 import ArticleDetail from '@/views/article-detail.vue'
 import MyArticleDetail from '@/views/myarticle-detail.vue'
 import Article from '@/views/menus/article.vue'
@@ -23,8 +23,8 @@ import Edit from '@/views/menus/edit.vue'
 import EditProject from '@/views/menus/editproject.vue'
 import MyProject from '@/views/menus/myproject.vue'
 import Search from '@/views/menus/searchhome.vue'
-import Q from '@/views/menus/qiandao2.vue'
-import Cal from '@/views/menus/rili.vue'
+// import Q from '@/views/menus/qiandao2.vue'
+// import Cal from '@/views/menus/rili.vue'
 import { getToken } from '@/utils/token'
 
 Vue.use(VueRouter)
@@ -70,9 +70,9 @@ const router = new VueRouter({
       //   { path: 'editproject', component: EditProject },
       // ]
     },
-    { path:'/test', component: Li },
-    { path:'/qiandao', component: Cal },
-    { path:'/upload', component: Upload },
+    // { path:'/test', component: Li },
+    // { path:'/qiandao', component: Cal },
+     { path:'/upload', component: Upload },
     
     
   ]
